@@ -1,3 +1,7 @@
+# Exponencial com euler
+def exponencial(x):
+    resultado = Euler() ** x
+    return resultado
 def fatorial(n): #Inicia uma função que irá calcular o fatorial
     if n < 0: return "Fatorial não existe para negativos" #Caso  valor recebido pela funcao seja negativo ela n irá rodar
     fat = 1 
